@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Shopping Cart</h1>
+
+        <div id="cart-items">
+
+            <!-- First product -->
+            <div class="cart-item" data-price="25">
+                <div class="product-image"><img src="white smeaker 2.jpg" alt="white sneakers"></div>
+
+                <div class="product-info">
+                    <h2>Sneakers</h2>
+                    <p>Price: $25</p>
+
+                    <button class="decrease-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increase-btn">+</button>
+                </div>
+
+                <div class="buttons">
+                    <button class="like-btn">♥</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <!-- Second product -->
+            <div class="cart-item" data-price="40">
+                <div class="product-image"><img src="backpack.jpg" alt="backpack"></div>
+
+                <div class="product-info">
+                    <h2>Backpack</h2>
+                    <p>Price: $40</p>
+
+                    <button class="decrease-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increase-btn">+</button>
+                </div>
+
+                <div class="buttons">
+                    <button class="like-btn">♥</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+            <!-- Third product -->
+            <div class="cart-item" data-price="15">
+                <div class="product-image"><img src="wristwatch 1.jpg" alt="wristwatch"></div>
+
+                <div class="product-info">
+                    <h2>Wristwatch</h2>
+                    <p>Price: $15</p>
+
+                    <button class="decrease-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="increase-btn">+</button>
+                </div>
+
+                <div class="buttons">
+                    <button class="like-btn">♥</button>
+                    <button class="delete-btn">Delete</button>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="total">
+            Total: $<span id="total-price">80</span>
+        </h2>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
